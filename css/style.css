@@ -33,7 +33,7 @@ li{
   }
 
 .card-block{
-   height: 529px;  /*  150x3 + 38.9x2 */
+   height: px;  /*  150x3 + 38.9x2 */
 }
 
 .row{
@@ -45,12 +45,19 @@ li{
     width: 20%;
     height: 170px;
     border: 1px solid black ;
+    border-radius: 10px;
     float: left;
     margin-right: 4%;
     margin-bottom: 4%;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+
 }
 .card:nth-child(4n){
     margin-right: 0;
 }
 
-
+.row > .card:nth-child():hover{
+    background-color: white;
+    background-image: url(../img/noun_Submarine_3134738.png);
+}
