@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(130, 183, 214);
+}
+
+header h1{
+    font-family: 'Corben', cursive;
+    color: cornsilk;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.card-block{
+   height: 529px;  /*  150x3 + 38.9x2 */
+}
+
+.row{
+    width: 70%;
+    margin: auto;
+}
+
+.card{
+    width: 20%;
+    height: 170px;
+    border: 1px solid black ;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+.card:nth-child(4n){
+    margin-right: 0;
+}
+
+
